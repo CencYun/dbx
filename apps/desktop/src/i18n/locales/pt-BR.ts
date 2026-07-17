@@ -610,6 +610,9 @@ export default withEnglishFallback({
       uppercaseSelection: "Converter para maiúsculas",
       lowercaseSelection: "Converter para minúsculas",
       selectAll: "Selecionar tudo",
+      delimitedList: "Converter para lista delimitada",
+      findReplace: "Localizar/substituir",
+      deleteEmptyLines: "Excluir linhas vazias",
     },
     search: {
       find: "Localizar",
@@ -623,6 +626,7 @@ export default withEnglishFallback({
       nextMatch: "Próximo (Enter)",
       close: "Fechar (Esc)",
       noResults: "Nenhum resultado",
+      inSelection: "Na seleção",
     },
     executionPicker: {
       title: "Execution Target",
@@ -633,6 +637,19 @@ export default withEnglishFallback({
     },
     statementExecutionSucceeded: "{count} instrução(ões) executada(s) com sucesso",
     statementExecutionFailed: "{count} instrução(ões) com falha",
+    delimitedList: {
+      title: "Converter para lista delimitada",
+      columnDelimiter: "Delimitador de coluna",
+      resultDelimiter: "Delimitador de resultado",
+      quoteChar: "Caractere de aspas para strings",
+      wrapColumn: "Quebrar na coluna",
+      prefixText: "Texto de prefixo",
+      suffixText: "Texto de sufixo",
+      preview: "Visualização",
+      emptyPreview: "Nada para visualizar",
+      confirm: "Confirmar",
+      selectFirst: "Selecione o texto da lista primeiro",
+    },
   },
   tabs: {
     sql: "SQL",
